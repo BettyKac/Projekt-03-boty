@@ -25,6 +25,12 @@ body {
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #efe8e8;
+   
 }
 
 
@@ -32,3 +38,124 @@ h1 {
     font-weight: 500;
 }
 
+.zbozi {
+    display: flex;
+    height: 440px;
+    border: 1px;
+    border-style: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.vizual {
+    background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
+    padding: 30px;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius:  10px;
+    width: 335px;
+
+}
+.bota {
+    position: relative;
+    left: -113px;
+}
+.velikosti {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 0%;
+    font-size: 14px;
+}
+.velikosti :hover {
+    color: #f15f42;
+    border: 1px;
+    border-style: solid;
+    border-color: #f15f42;
+    padding: 5px;
+    border-radius: 50%;
+}
+.vybrana {
+    color: #f15f42;
+    border: 1px;
+    border-style: solid;
+    border-color: #f15f42;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+.detaily {
+    padding: 30px;
+    width: 335px;
+    background-color:#f5f5f5;
+    border: 1px;
+    border-style: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+.popis {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    padding-bottom: 30px;
+    border-color: #06d7c1;
+}
+.logo {
+    margin-bottom: 30px;
+}
+.cenovka {
+    text-align: right;
+    position: relative;
+    top: -82px;
+    color: rgb(255, 255, 255);
+
+}
+.slogan {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+.zaruka {
+    font-size: 12px;
+}
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+.produkt {
+    color:#959595;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 27px;
+}
+.popis {
+font-size: 14px;
+}
+.parametr {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+.tlacitko {
+    position: relative;
+    top: 67px;
+    background-color:#f15f42;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+}
+.tlacitko:hover {
+    background-color: #ba371d;
+}
